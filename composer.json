@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/cookiesbasedregistration",
+    "type": "magento-module",
+    "license": "opensource",
+    "homepage": "",
+    "description": "Cookies based registration for guest user, pop up window will open for registration ",
+    "authors": [
+    {
+        "name": "BluethinkIT",
+        "email": "pramodgupta.bt@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
