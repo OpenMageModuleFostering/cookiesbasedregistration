@@ -13,7 +13,7 @@
 
 if($flag){?>
 
-<div id="popForm" >
+<div id="popForm" style = "display:none">
 <link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('popup/css/popup.css');?>"/>
 <div class="popup_container sign_in_modal" id="transparent_bg">
 	<div style="width:660px;" class="overlay-inner-bg" id="content">
@@ -101,10 +101,10 @@ jQuery('#transparent_bg').hide();
 
 <?php
 $name = 'popupcookies';     
-//$value = 'yes'; 
+$value = 'yes'; 
 // $getCookies = "";    
 $getCookies = Mage::getModel('core/cookie')->get($name);
-$getCookies = "";  
+//$getCookies = "";  
 if($getCookies==""){
 
 ?>

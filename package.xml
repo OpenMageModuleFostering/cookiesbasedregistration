@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>cookiesbasedregistration</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">opensource</license>
     <channel>community</channel>
@@ -12,9 +12,9 @@
 After registration customer will get welcome message and random password. this popup window based on cookies. if user will delete cookies then agai he will get popup window. </description>
     <notes>Tested from magento expert. Working fine</notes>
     <authors><author><name>BluethinkIT</name><user>Bluethink</user><email>pramodgupta.bt@gmail.com</email></author></authors>
-    <date>2015-02-13</date>
-    <time>13:12:57</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Bluethink_Loadregistration.xml" hash="d7310502ff1d848dfb1583eb4824bc99"/></dir></target><target name="magelocal"><dir name="Bluethink"><dir name="Loadregistration"><dir name="Helper"><file name="Data.php" hash="6815ab949df22bb2fa5067854dbfefd3"/></dir><dir name="controllers"><file name="AccountController.php" hash="782740fad6eebf85a790452394617a27"/></dir><dir name="etc"><file name="config.xml" hash="bc9fa678446b64700188d3dd88d63c19"/><file name="system.xml" hash="e175f4381be4c8630a8691f70cf25f4b"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="loadregistration.xml" hash="b7188177bf6beacd990603db5efa2173"/></dir><dir name="template"><dir name="loadregister"><file name="popup.phtml" hash="e920d277c173e1885782245cd2107601"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="popup"><dir name="css"><file name="popup.css" hash="969a2705ef9a30278e4d91c9e24b5ed7"/></dir><dir name="images"><file name="cross_icon.png" hash="42e56d1ae57aaa6794f9ccef21a1fa30"/><file name="loader.png" hash="5fc9514cf8b504709ddca5327c76d524"/><file name="no_image.jpg" hash="11cfb786997ad7a4335c762e3159ed69"/><file name="reg_message.png" hash="6bca288ef61ff5be3eadd59e87850182"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-02-22</date>
+    <time>15:11:43</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Bluethink_Loadregistration.xml" hash="d7310502ff1d848dfb1583eb4824bc99"/></dir></target><target name="magelocal"><dir name="Bluethink"><dir name="Loadregistration"><dir name="Helper"><file name="Data.php" hash="6815ab949df22bb2fa5067854dbfefd3"/></dir><dir name="controllers"><file name="AccountController.php" hash="782740fad6eebf85a790452394617a27"/></dir><dir name="etc"><file name="config.xml" hash="bc9fa678446b64700188d3dd88d63c19"/><file name="system.xml" hash="e175f4381be4c8630a8691f70cf25f4b"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="loadregistration.xml" hash="b7188177bf6beacd990603db5efa2173"/></dir><dir name="template"><dir name="loadregister"><file name="popup.phtml" hash="22429157d54ea3c41417134e49b960bf"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="popup"><dir name="css"><file name="popup.css" hash="969a2705ef9a30278e4d91c9e24b5ed7"/></dir><dir name="images"><file name="cross_icon.png" hash="42e56d1ae57aaa6794f9ccef21a1fa30"/><file name="loader.png" hash="5fc9514cf8b504709ddca5327c76d524"/><file name="no_image.jpg" hash="11cfb786997ad7a4335c762e3159ed69"/><file name="reg_message.png" hash="6bca288ef61ff5be3eadd59e87850182"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
