@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/cookiesbasedregistration",
+    "name": "openmage-module-fostering\/cookiesbasedregistration",
     "type": "magento-module",
-    "license": "opensource",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Cookies based registration for guest user, pop up window will open for registration ",
     "authors": [
